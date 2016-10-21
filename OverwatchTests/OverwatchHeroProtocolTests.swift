@@ -60,7 +60,7 @@ class OverwatchHeroProtocolTests: XCTestCase {
     }
     
     func testProduceDescription() {
-        let description = "Name: Zarya\nType: Tank: 🐼\nAttack: Tank: ✊🏽\nHeal: Heal: ✖️\nHit Points: 5"
+        let description = "Name: Zarya\nType: Tank: 🐼\nAttack: Tank: ✊🏽\nHeal: Heal: ✖️\nHit Points:5"
         XCTAssertEqual(dummyOW.description, description, "The OverwatchHero protocol through an extension should provide a default implementation to the read-only computed property description of type String")
     }
     
